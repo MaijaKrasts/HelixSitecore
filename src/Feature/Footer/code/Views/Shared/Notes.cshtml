@@ -1,0 +1,13 @@
+﻿@using Sitecore.Mvc.Presentation
+@using Sitecore.Mvc
+@model RenderingModel
+
+<table>
+    <tr>
+        <td>@Html.Sitecore().Field("Year", Model.Item, new { DisableWebEdit = true })</td>
+        <td>@Html.Sitecore().Field("Name", Model.Item, new { DisableWebEdit = true })</td>
+        <td>@Html.Sitecore().Field("Surname", Model.Item, new { DisableWebEdit = true })</td>
+    </tr>
+</table>
+
+

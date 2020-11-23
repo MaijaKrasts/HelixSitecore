@@ -1,0 +1,7 @@
+﻿@using Glass.Mapper.Sc.Web.Mvc
+@model Sitecore.Feature.Hero.Models.HeroModel
+@{
+    Layout = null;
+}
+<p>@Html.Glass().RenderImage(x => x.Image, isEditable: true)</p>
+<p>@Html.Glass().Editable(x => x.BodyText)</p>

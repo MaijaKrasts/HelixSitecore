@@ -1,0 +1,25 @@
+﻿---
+ID: "80854c46-cf2f-4952-af58-3183e66f00a2"
+Parent: "996d6468-43f4-4a81-8f5b-a25470a07f25"
+Template: "9e0fb1bb-e418-4da7-bcd3-ab6e1fa29b1b"
+Path: /sitecore/content/Home/Articles/That cool waterfall
+DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 50
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200310T125013Z
+    - ID: "c4fd5aee-1e6f-4a50-ba54-65646c7502ad"
+      Hint: Hero Image
+      Value: |
+        <image mediaid="{1FE0AB99-0CCC-46A8-9A66-3DF16CCB68F9}" />
+    - ID: "d6045253-b155-45b3-86ca-93be1cec50fa"
+      Hint: Title
+      Value: That cool waterfall

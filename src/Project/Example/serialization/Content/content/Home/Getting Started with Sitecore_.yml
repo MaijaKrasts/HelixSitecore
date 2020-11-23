@@ -1,0 +1,30 @@
+﻿---
+ID: "3a9978b1-ded8-4592-a207-e997ba4a2202"
+Parent: "110d559f-dea5-42ea-9c1c-8a5df7e70ef9"
+Template: "3c574b66-cc2b-4e12-a8f8-bcb301a52964"
+Path: /sitecore/content/Home/Getting Started with Sitecore Helix
+DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 100
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200309T154712Z
+    - ID: "2c166e98-afaf-4ef7-acc8-f03723ad2e98"
+      Hint: Body Copy
+      Value: |
+        <p><strong>This is important!</strong></p>
+        <p><em>This is a quote</em></p>
+        <p>This is just a random textttt.&nbsp;This is just a random textttt.&nbsp;This is just a random textttt.&nbsp;This is just a random textttt.&nbsp;This is just a random textttt.&nbsp;This is just a random textttt.&nbsp;This is just a random textttt.&nbsp;This is just a random textttt.&nbsp;This is just a random textttt.&nbsp;This is just a random textttt.&nbsp;This is just a random textttt.&nbsp;</p><p><br />yes?</p>
+    - ID: "49fa00d4-ceca-4bc4-b1b8-708798db53d4"
+      Hint: Copyright
+      Value: MK foundation
+    - ID: "d6045253-b155-45b3-86ca-93be1cec50fa"
+      Hint: Title
+      Value: "Getting started with Sitecore Helix is working!"

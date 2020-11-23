@@ -1,0 +1,25 @@
+﻿---
+ID: "82f40a5e-6f04-480a-9d76-836f27298692"
+Parent: "c4f29767-a3aa-47dd-bd08-3152b70426bd"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/Project/Example/Page Type Templates/Article
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: Applications/16x16/form_red.png
+- ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
+  Hint: __Base template
+  Type: tree list
+  Value: "{4B2B8EC4-0046-4B6A-89D1-E3F1D1CCFA97}"
+- ID: "f7d48a55-2158-4f02-9356-756654404f73"
+  Hint: __Standard values
+  Value: "{2A7EF327-D146-494B-AE6E-F16454E0ED41}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200325T101411Z

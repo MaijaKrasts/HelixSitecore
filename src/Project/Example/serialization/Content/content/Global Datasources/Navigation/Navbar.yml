@@ -1,0 +1,14 @@
+﻿---
+ID: "dc10e772-126c-40a0-8090-ef971961533c"
+Parent: "30fbd2e8-5184-4f43-82aa-3a0244c1099c"
+Template: "9f1e8dbd-cb95-45a8-bd4f-13451e8aa3d4"
+Path: /sitecore/content/Global Datasources/Navigation/Navbar
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200312T092649Z

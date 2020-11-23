@@ -1,0 +1,24 @@
+﻿---
+ID: "a2f4881c-00ba-4f11-bb99-a67cda6b5753"
+Parent: "110d559f-dea5-42ea-9c1c-8a5df7e70ef9"
+Template: "3c574b66-cc2b-4e12-a8f8-bcb301a52964"
+Path: /sitecore/content/Home/Second page
+DB: master
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 300
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200310T092856Z
+    - ID: "2c166e98-afaf-4ef7-acc8-f03723ad2e98"
+      Hint: Body Copy
+      Value: text texy texttt
+    - ID: "d6045253-b155-45b3-86ca-93be1cec50fa"
+      Hint: Title
+      Value: This is better title

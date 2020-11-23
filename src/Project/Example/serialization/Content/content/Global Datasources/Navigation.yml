@@ -1,0 +1,14 @@
+﻿---
+ID: "30fbd2e8-5184-4f43-82aa-3a0244c1099c"
+Parent: "3a0cca3a-8d64-47a1-9d67-148267cfea9e"
+Template: "a87a00b1-e6db-45ab-8b54-636fec3b5523"
+Path: /sitecore/content/Global Datasources/Navigation
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200312T092239Z
