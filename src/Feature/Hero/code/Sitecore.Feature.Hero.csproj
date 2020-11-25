@@ -127,6 +127,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Config\Include\Feature\Sitecore.Feature.Hero.Serialization.config" />
     <None Include="packages.config" />
     <None Include="Global.asax" />
     <Content Include="Views\Hero\Show.cshtml" />
