@@ -1,0 +1,14 @@
+﻿---
+ID: "fed1f593-cc12-46c6-971e-488bbdb5b45c"
+Parent: "87bf8aca-24eb-4296-9a43-cba47d6e35ba"
+Template: "0437fee2-44c9-46a6-abe9-28858d9fee8c"
+Path: /sitecore/templates/Feature/Site/Footer
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20201117T115125Z

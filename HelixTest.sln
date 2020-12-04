@@ -15,9 +15,16 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Serialization", "Serializat
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sitecore.Foundation.Serialization", "src\Foundation\Serialization\code\Sitecore.Foundation.Serialization.csproj", "{EE2A5DDE-900E-4159-B6F9-9C3AB4D00294}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configuration", "Configuration", "{EB837774-C206-43FF-8B40-CAC04DFB60A5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sitecore.Foundation.Configuration", "src\Foundation\Configuration\code\Sitecore.Foundation.Configuration.csproj", "{24AA061F-0EFE-4497-800B-795ABA434205}"
+EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PageContent", "PageContent", "{4A6824EB-1400-4816-8809-2F28CEEF78E1}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sitecore.Feature.PageContent", "src\Feature\PageContent\code\Sitecore.Feature.PageContent.csproj", "{58935E07-9524-4E37-BFCE-40E005256243}"
+	ProjectSection(ProjectDependencies) = postProject
+		{24AA061F-0EFE-4497-800B-795ABA434205} = {24AA061F-0EFE-4497-800B-795ABA434205}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sitecore.Project.Website", "src\Project\Website\code\Sitecore.Project.Website.csproj", "{800D493C-D1AF-4F54-AE82-8F1FB69C58EB}"
 EndProject
@@ -51,6 +58,10 @@ Global
 		{EE2A5DDE-900E-4159-B6F9-9C3AB4D00294}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EE2A5DDE-900E-4159-B6F9-9C3AB4D00294}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EE2A5DDE-900E-4159-B6F9-9C3AB4D00294}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24AA061F-0EFE-4497-800B-795ABA434205}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24AA061F-0EFE-4497-800B-795ABA434205}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24AA061F-0EFE-4497-800B-795ABA434205}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24AA061F-0EFE-4497-800B-795ABA434205}.Release|Any CPU.Build.0 = Release|Any CPU
 		{58935E07-9524-4E37-BFCE-40E005256243}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{58935E07-9524-4E37-BFCE-40E005256243}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{58935E07-9524-4E37-BFCE-40E005256243}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -87,6 +98,8 @@ Global
 		{B9D553CD-B9F8-4D7C-9892-2ACB999BFB3F} = {1BDED101-3E40-46D7-9042-61CE5F67A46D}
 		{F8CB3A06-E486-4CDB-9942-2ACAD8AB7D6B} = {19088684-A1BB-4DF5-AF68-64302D92FA5F}
 		{EE2A5DDE-900E-4159-B6F9-9C3AB4D00294} = {F8CB3A06-E486-4CDB-9942-2ACAD8AB7D6B}
+		{EB837774-C206-43FF-8B40-CAC04DFB60A5} = {19088684-A1BB-4DF5-AF68-64302D92FA5F}
+		{24AA061F-0EFE-4497-800B-795ABA434205} = {EB837774-C206-43FF-8B40-CAC04DFB60A5}
 		{4A6824EB-1400-4816-8809-2F28CEEF78E1} = {3ABE0956-B841-4196-898F-DE15CD85281F}
 		{58935E07-9524-4E37-BFCE-40E005256243} = {4A6824EB-1400-4816-8809-2F28CEEF78E1}
 		{800D493C-D1AF-4F54-AE82-8F1FB69C58EB} = {B9D553CD-B9F8-4D7C-9892-2ACB999BFB3F}
@@ -102,7 +115,7 @@ Global
 		{D7C97639-923A-47AE-870E-2EA446BD0ED8} = {7F8806C6-6028-4F3B-83E7-91796C89B132}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {CD94A35C-E020-420D-BE39-44B5BC5E45BD}
 		EnterpriseLibraryConfigurationToolBinariesPathV6 = packages\EnterpriseLibrary.Common.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.6.0.1304.0\lib\portable-net45+win+wp8;packages\EnterpriseLibrary.TransientFaultHandling.Caching.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.Data.6.0.1304.1\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.ServiceBus.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.WindowsAzure.Storage.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.Configuration.6.0.1304.0\lib\NET45
+		SolutionGuid = {CD94A35C-E020-420D-BE39-44B5BC5E45BD}
 	EndGlobalSection
 EndGlobal
